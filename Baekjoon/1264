@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-let a = fs.readFileSync('input.txt').toString().split('\n');
+let a = fs.readFileSync('/dev/stdin').toString().split('\n');
 
 const checker = ['a', 'e', 'i', 'o', 'u'];
 let count = [];
